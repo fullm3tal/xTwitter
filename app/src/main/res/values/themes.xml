@@ -2,4 +2,11 @@
 <resources>
 
     <style name="Theme.XTwitter" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.XTwitter.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="postSplashScreenTheme">@style/Theme.XTwitter</item>
+    </style>
+
 </resources>
